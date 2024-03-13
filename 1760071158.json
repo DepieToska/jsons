@@ -1,15 +1,16 @@
 {
 "merchant": {
-"merchantCity": "HRAKLEION",
-"merchantCategoryCode": "7399",
+"merchantCity": "AMAROYSION",
+"merchantCategoryCode": "5651",
 "merchantApplicationType": "0",
-"merchantPostalCode": "14121",
-"merchantName": "CARDLINK S.A.ELPEDISON ",
-"merchantAddress": "Marinou Antypa 41",
-"merchantTelephone": "210243101",
+"merchantPostalCode": "15122",
+"merchantName": "TEZENIS THE MALL ATHENS",
+"merchantAddress": "ANDREA PAPANDREOY 35  ATHHNA",
+"merchantTelephone": "2106197812",
+"merchantVatNumber": "099369117",
 "cardlinkMerchantType": "",
-"merchantID": "0101118297",
-"terminalID": "77821498",
+"merchantID": "0020918660",
+"terminalID": "77854625",
 "customerID": "00000000000001",
 "acqIndetifier": "",
 "acqName": ""
@@ -20,41 +21,31 @@
 "acqIndetifier": "014",
 "acqName": "Alpha Bank",
 "allowLocal": true,
+"allowPremiumLocal": false,
 "allowRefund": true,
-"allowKeyEntry": false,
-"allowMoto": false
+"allowKeyEntry": true,
+"allowMoto": true,
+"premiumLocalApprovalCode": ""
 },
 {
 "acqIndetifier": "026",
 "acqName": "Eurobank",
 "allowLocal": true,
+"allowPremiumLocal": false,
 "allowRefund": true,
 "allowKeyEntry": true,
-"allowMoto": true
+"allowMoto": true,
+"premiumLocalApprovalCode": ""
 },
 {
 "acqIndetifier": "011",
-"acqName": "Εθνική Τράπεζα",
+"acqName": "ΕΘΝΙΚΗ ΤΡΑΠΕΖΑ",
 "allowLocal": true,
-"allowRefund": true,
-"allowKeyEntry": false,
-"allowMoto": false
-},
-{
-"acqIndetifier": "017",
-"acqName": "Piraeus Bank",
-"allowLocal": true,
+"allowPremiumLocal": false,
 "allowRefund": true,
 "allowKeyEntry": true,
-"allowMoto": true
-},
-{
-"acqIndetifier": "016",
-"acqName": "Attica Bank",
-"allowLocal": true,
-"allowRefund": true,
-"allowKeyEntry": true,
-"allowMoto": true
+"allowMoto": true,
+"premiumLocalApprovalCode": ""
 }
 ]
 },
@@ -65,30 +56,30 @@
 "isAllowSalesPayment": true,
 "isAllowVoidPayment": true,
 "isAllowRefundPayment": true,
-"isAllowMotoPayment": true
+"isAllowMotoPayment": false
 },
 "applicationSettings": {
 "sdkLink": 1,
 "useMastercardNewBrand": true,
-"supportKeyEntry": true,
+"supportKeyEntry": false,
 "supportInstallments": true,
-"supportTIP": true,
+"supportTIP": false,
 "useBenakiTheme": false,
 "useVodafoneTheme": false,
 "useSklavenitisTheme": false,
 "autoReactivationTimer": "180",
 "useAutoSettlement": false,
 "useAutoCloseBatch": true,
-"useAutoCloseBatchTimer": "22:53",
+"useAutoCloseBatchTimer": "22:25",
 "useAutoParams": true,
-"useAutoParamsTimer": "01:38",
-"alphaBankDCCSupport": true,
-"alphaBankDCCProfileId": "19010",
-"alphaBankDCCPartnerId": "9010",
-"alphaBankDCCMerchantNumber": "123419010",
+"useAutoParamsTimer": "02:25",
+"alphaBankDCCSupport": false,
+"alphaBankDCCProfileId": "19011",
+"alphaBankDCCPartnerId": "9011",
+"alphaBankDCCMerchantNumber": "123419011",
 "alphaBankDCCMinimumAmount": 100,
-"euroBankDCCSupport": true,
-"nbgAppSelectionEnabled": false,
+"euroBankDCCSupport": false,
+"nbgAppSelectionEnabled": true,
 "nbgAppSelectionAcquirerBankId": "011",
 "cardlinkOneConfiguration": {
 "accounts": []
@@ -96,30 +87,31 @@
 "ishceSelectionEnabled": false,
 "ishceSelectionAcquirerBankId": "011",
 "refundValidationEnabled": false,
-"localSaleEnabled": true,
-"isManualAcquirerSelection": true,
-"preAuthEnabled": true,
+"localSaleEnabled": false,
+"isManualAcquirerSelection": false,
+"preAuthEnabled": false,
 "unattendedMode": false,
+"slaveDeviceEnabled": false,
 "mdbManagerEnabled": false,
 "mdbCreditsAvailable": 0,
 "mdbCreditsLimitAvailable": 0,
 "fileLoggerEnabled": true,
 "fileLoggerMBCapacity": 200,
 "freeRefundEnabled": true,
-"freeCompletionEnabled": true,
+"freeCompletionEnabled": false,
 "supportPleaseCallMeEnabled": true,
 "supportConfiguration": {
-"id": "2013",
-"name": "Basic",
+"id": "2011",
+"name": "Premium",
 "details": {
 "url": "https://cardlink.gr/support/",
-"telephone": "2106303000",
+"telephone": "2106303030",
 "email": "support@cardlink.gr",
 "callMe": "support@cardlink.gr"
 }
 },
-"supportOrderThermalRollEnabled": true,
-"displayPaperRollDiscontinueNotification": true,
+"supportOrderThermalRollEnabled": false,
+"displayPaperRollDiscontinueNotification": false,
 "receiptSettings": {
 "showEmvDataInReceipt": false,
 "acquirerBankNameAsBIDSetting": false,
@@ -133,31 +125,34 @@
 "defaultLanguage": "el"
 },
 "loyaltySettings": {
-"alphaBankBonusEnabled": true,
-"alphaBankBonusVTid": "77821498",
-"alphaBankBonusVMid": "0101118297",
+"alphaBankBonusEnabled": false,
+"alphaBankBonusVTid": "77854625",
+"alphaBankBonusVMid": "0020918660",
 "useAlphaBankBonusBRAmount": false,
 "useAlphaBankBonusWithoutOffers": false,
-"eurobankEuroepistrofiEnabled": true,
-"eurobankEuroepistrofiVTid": "77821498",
-"eurobankEuroepistrofiVMid": "0101118297",
-"eurobankEuroepistrofiUploadFullRedemption": true,
-"nbgGo4MoreEnabled": true,
-"nbgGo4MoreVTid": "00000000",
-"nbgGo4MoreVMid": "0000000000",
+"eurobankEuroepistrofiEnabled": false,
+"eurobankEuroepistrofiVTid": "77854625",
+"eurobankEuroepistrofiVMid": "0020918660",
+"eurobankEuroepistrofiUploadFullRedemption": false,
+"nbgGo4MoreEnabled": false,
+"nbgGo4MoreVTid": "33027305",
+"nbgGo4MoreVMid": "4281349",
 "pbgYellowEnabled": false,
-"pbgYellowVTid": "00000000",
-"pbgYellowVMid": "0000000000",
+"pbgYellowVTid": "",
+"pbgYellowVMid": "",
 "pbgYellowPointsToRedeem": "2000",
-"sklavenitisPrepaidEnabled": false,
+"cardlinkLoyaltyEnabled": false,
 "asfalistikosgoneasEnabled": false,
-"asfalistikosgoneasForceOnline": false
+"asfalistikosgoneasForceOnline": false,
+"sklavenitisPrepaidEnabled": false
 },
 "ecrSettings": {
 "ecrSystem": true,
 "ecrSystemDefaultPort": 4000,
 "ecrSystemMode": 0,
-"ecrSystemProtocol": 0
+"ecrSystemProtocol": 0,
+"ecrVendor": "0",
+"supportBonusPoolBlock": false
 },
 "billPayment": {
 "useBillPayment": false,
@@ -310,6 +305,302 @@
 {
 "lower": "62",
 "upper": "62"
+}
+]
+},
+{
+"id": 0,
+"name": "EUROLINE",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050246",
+"upper": "930050246"
+},
+{
+"lower": "930050703",
+"upper": "930050703"
+},
+{
+"lower": "60197606",
+"upper": "60197611"
+}
+]
+},
+{
+"id": 1,
+"name": "MAGNA",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050216",
+"upper": "930050216"
+},
+{
+"lower": "930050695",
+"upper": "930050695"
+}
+]
+},
+{
+"id": 2,
+"name": "ZHRIDH",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050688",
+"upper": "930050688"
+}
+]
+},
+{
+"id": 3,
+"name": "ORIFLAME",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050539",
+"upper": "930050539"
+}
+]
+},
+{
+"id": 4,
+"name": "RADIOCARD",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050490",
+"upper": "930050490"
+}
+]
+},
+{
+"id": 5,
+"name": "LONGCHAMP",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050489",
+"upper": "930050489"
+}
+]
+},
+{
+"id": 6,
+"name": "MAKRO",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050470",
+"upper": "930050470"
+}
+]
+},
+{
+"id": 7,
+"name": "ELEPHANT EASY",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050455",
+"upper": "930050455"
+}
+]
+},
+{
+"id": 8,
+"name": "DANOS",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050349",
+"upper": "930050349"
+}
+]
+},
+{
+"id": 9,
+"name": "B24",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050158",
+"upper": "930050158"
+},
+{
+"lower": "930050166",
+"upper": "930050166"
+}
+]
+},
+{
+"id": 10,
+"name": "ELECTRONET",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "930050133",
+"upper": "930050133"
+}
+]
+},
+{
+"id": 11,
+"name": "AGROKARTA",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "93005064",
+"upper": "93005064"
+}
+]
+},
+{
+"id": 12,
+"name": "STORE",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "5043942",
+"upper": "5043942"
+}
+]
+},
+{
+"id": 13,
+"name": "JET OIL",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "504394100",
+"upper": "504394199"
+}
+]
+},
+{
+"id": 14,
+"name": "MOUHALIS",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "504394080",
+"upper": "504394089"
+}
+]
+},
+{
+"id": 15,
+"name": "GRATSIAS",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "504394070",
+"upper": "504394079"
+}
+]
+},
+{
+"id": 16,
+"name": "AMWAY",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "504394060",
+"upper": "504394069"
+}
+]
+},
+{
+"id": 17,
+"name": "NUTRIMETRICS",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "504394050",
+"upper": "504394059"
+}
+]
+},
+{
+"id": 18,
+"name": "MEALSANDMORE",
+"color": "#D0DC2C",
+"aids": [],
+"bins": [
+{
+"lower": "502259000",
+"upper": "502259999"
+}
+]
+},
+{
+"id": 19,
+"name": "EVROPAIKI PISTI",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "51015501",
+"upper": "51015501"
+}
+]
+},
+{
+"id": 20,
+"name": "LONGCHAMP",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "60197600",
+"upper": "60197605"
+}
+]
+},
+{
+"id": 21,
+"name": "AMEX LOCAL",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "375533",
+"upper": "375538"
+},
+{
+"lower": "375593",
+"upper": "375593"
+}
+]
+},
+{
+"id": 22,
+"name": "AMEX KALOGIROU",
+"color": "#FFFFFF",
+"aids": [],
+"bins": [
+{
+"lower": "3755348",
+"upper": "3755349"
 }
 ]
 }
@@ -529,6 +820,7 @@
 "image_setwifi_png": "https://mpos.cardlink.gr/files/easylink/icons/SET_Wifi.png"
 },
 "sp20_files": {
+"bootFile": "https://mpos.cardlink.gr/files/easylink/sp20/EasyLink_Lite_v1.13.00W_SP20V4_20230615_sign.txt",
 "uiParam": "https://mpos.cardlink.gr/files/easylink/sp20/ui_sp20v4.txt",
 "uiGreekParam": "https://mpos.cardlink.gr/files/easylink/sp20/ui_sp20v4_greek.txt",
 "clssParam": "https://mpos.cardlink.gr/files/easylink/sp20/clss_param.txt",
@@ -595,23 +887,21 @@
 "thresholdValueInRandomSelection": "0",
 "alphabankDccBelowCvmLimit": false,
 "alphaBankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"FINTRAX INCLUDING AN INTERNATION",
-"CONVERSION FEE OF %feePercent%%",
-"THIS SERVICE IS PROVIDED BY CARDLINK",
-"IN ASSOCIATION WITH FINTRAX."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
+"FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
+"CARDLINK IN ASSOCIATION WITH PLANET."
 ],
 "eurobankDccBelowCvmLimit": false,
 "eurobankDCCDisclaimer": [
-"I HAVE BEEN OFFERED",
-"A CHOICE OF CURRENCIES",
-"AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-"THE EXCHANGE RATE IS BASED ON LATEST ECB",
-"RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION FEE.",
-"THIS SERVICE IS PROVIDED BY EUROBANK",
-"IN ASSOCIATION WITH CARDLINK."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
+"PLUS A CONVERSION FEE.",
+"THIS SERVICE IS PROVIDED BY WORDLINE."
 ]
 },
 {
@@ -651,23 +941,21 @@
 "thresholdValueInRandomSelection": "0",
 "alphabankDccBelowCvmLimit": true,
 "alphaBankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"FINTRAX INCLUDING AN INTERNATION",
-"CONVERSION FEE OF %feePercent%%",
-"THIS SERVICE IS PROVIDED BY CARDLINK",
-"IN ASSOCIATION WITH FINTRAX."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
+"FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
+"CARDLINK IN ASSOCIATION WITH PLANET."
 ],
 "eurobankDccBelowCvmLimit": true,
 "eurobankDCCDisclaimer": [
-"I HAVE BEEN OFFERED",
-"A CHOICE OF CURRENCIES",
-"AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
-"THE EXCHANGE RATE IS BASED ON LATEST ECB",
-"RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION FEE.",
-"THIS SERVICE IS PROVIDED BY EUROBANK",
-"IN ASSOCIATION WITH CARDLINK."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
+"PLUS A CONVERSION FEE.",
+"THIS SERVICE IS PROVIDED BY WORDLINE."
 ]
 },
 {
@@ -707,23 +995,21 @@
 "thresholdValueInRandomSelection": "0",
 "alphabankDccBelowCvmLimit": true,
 "alphaBankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"FINTRAX INCLUDING AN INTERNATION",
-"CONVERSION FEE OF %feePercent%%",
-"THIS SERVICE IS PROVIDED BY CARDLINK",
-"IN ASSOCIATION WITH FINTRAX."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
+"FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
+"CARDLINK IN ASSOCIATION WITH PLANET."
 ],
 "eurobankDccBelowCvmLimit": true,
 "eurobankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"EUROBANK WHOLESALERATE AS OF %conversionRateDay%/%conversionRateMonth%",
-"PLUS AN INTERNATIONAL CONVERSION FEE",
-"OF %fee% %dccCurrencyName%. THIS SERVICE IS",
-"PROVIDED BY EUROBANK"
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
+"PLUS A CONVERSION FEE.",
+"THIS SERVICE IS PROVIDED BY WORDLINE."
 ]
 },
 {
@@ -763,23 +1049,21 @@
 "thresholdValueInRandomSelection": "0",
 "alphabankDccBelowCvmLimit": true,
 "alphaBankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"FINTRAX INCLUDING AN INTERNATION",
-"CONVERSION FEE OF %feePercent%%",
-"THIS SERVICE IS PROVIDED BY CARDLINK",
-"IN ASSOCIATION WITH FINTRAX."
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth% PLUS A CONVERSION",
+"FEE %feePercent%%. THIS SERVICE IS PROVIDED BY",
+"CARDLINK IN ASSOCIATION WITH PLANET."
 ],
 "eurobankDccBelowCvmLimit": true,
 "eurobankDCCDisclaimer": [
-"I HAVE CHOSEN TO PAY IN %dccCurrencyName% & UNDERSTAND",
-"MY CHOICE OF CURRENCY IS FINAL.",
-"THE EXCHANGE RATE IS BASED ON",
-"EUROBANK WHOLESALERATE AS OF %conversionRateDay%/%conversionRateMonth%",
-"PLUS AN INTERNATIONAL CONVERSION FEE",
-"OF %fee% %dccCurrencyName%. THIS SERVICE IS",
-"PROVIDED BY EUROBANK"
+"I HAVE BEEN OFFERED A CHOICE OF",
+"CURRENCIES AND HAVE CHOSEN TO PAY IN %dccCurrencyName%.",
+"THE EXCHANGE RATE IS BASED ON LATEST",
+"ECB RATE AS OF %conversionRateDay%/%conversionRateMonth%",
+"PLUS A CONVERSION FEE.",
+"THIS SERVICE IS PROVIDED BY WORDLINE."
 ]
 },
 {
@@ -1128,7 +1412,7 @@
 "keyId": "10",
 "module": "CF98DFEDB3D3727965EE7797723355E0751C81D2D3DF4D18EBAB9FB9D49F38C8C4A826B99DC9DEA3F01043D4BF22AC3550E2962A59639B1332156422F788B9C16D40135EFD1BA94147750575E636B6EBC618734C91C1D1BF3EDC2A46A43901668E0FFC136774080E888044F6A1E65DC9AAA8928DACBEB0DB55EA3514686C6A732CEF55EE27CF877F110652694A0E3484C855D882AE191674E25C296205BBB599455176FDD7BBC549F27BA5FE35336F7E29E68D783973199436633C67EE5A680F05160ED12D1665EC83D1997F10FD05BBDBF9433E8F797AEE3E9F02A34228ACE927ABE62B8B9281AD08D3DF5C7379685045D7BA5FCDE58637",
 "exponent": "03",
-"expDate": "230630",
+"expDate": "311232",
 "checkSum": "C729CF2FD262394ABC4CC173506502446AA9B9FD"
 },
 {
@@ -1136,7 +1420,7 @@
 "keyId": "0F",
 "module": "C8D5AC27A5E1FB89978C7C6479AF993AB3800EB243996FBB2AE26B67B23AC482C4B746005A51AFA7D2D83E894F591A2357B30F85B85627FF15DA12290F70F05766552BA11AD34B7109FA49DE29DCB0109670875A17EA95549E92347B948AA1F045756DE56B707E3863E59A6CBE99C1272EF65FB66CBB4CFF070F36029DD76218B21242645B51CA752AF37E70BE1A84FF31079DC0048E928883EC4FADD497A719385C2BBBEBC5A66AA5E5655D18034EC5",
 "exponent": "03",
-"expDate": "230630",
+"expDate": "311224",
 "checkSum": "A73472B3AB557493A9BC2179CC8014053B12BAB4"
 },
 {
@@ -1152,7 +1436,7 @@
 "keyId": "05",
 "module": "E1200E9F4428EB71A526D6BB44C957F18F27B20BACE978061CCEF23532DBEBFAF654A149701C14E6A2A7C2ECAC4C92135BE3E9258331DDB0967C3D1D375B996F25B77811CCCC06A153B4CE6990A51A0258EA8437EDBEB701CB1F335993E3F48458BC1194BAD29BF683D5F3ECB984E31B7B9D2F6D947B39DEDE0279EE45B47F2F3D4EEEF93F9261F8F5A571AFBFB569C150370A78F6683D687CB677777B2E7ABEFCFC8F5F93501736997E8310EE0FD87AFAC5DA772BA277F88B44459FCA563555017CD0D66771437F8B6608AA1A665F88D846403E4C41AFEEDB9729C2B2511CFE228B50C1B152B2A60BBF61D8913E086210023A3AA499E423",
 "exponent": "03",
-"expDate": "301231",
+"expDate": "311227",
 "checkSum": "12BCD407B6E627A750FDF629EE8C2C9CC7BA636A"
 },
 {
