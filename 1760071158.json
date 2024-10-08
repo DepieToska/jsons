@@ -84,7 +84,7 @@
 "nbgAppSelectionAcquirerBankId": "011",
 "ishceSelectionEnabled": false,
 "ishceSelectionAcquirerBankId": "011",
-"refundValidationEnabled": false,
+"refundValidationEnabled": true,
 "localSaleEnabled": false,
 "isManualAcquirerSelection": false,
 "preAuthEnabled": false,
