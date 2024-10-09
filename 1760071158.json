@@ -4,12 +4,12 @@
 "merchantCategoryCode": "4121",
 "merchantApplicationType": "0",
 "merchantPostalCode": "15121",
-"merchantName": "Giatrakis Demo",
+"merchantName": "Cardlink Demo",
 "merchantAddress": "41-45 Marinou Antipa",
 "merchantTelephone": "2105758000",
 "merchantID": "0100984178",
 "cardlinkMerchantType": "100",
-"terminalID": "77400039",
+"terminalID": "08752124",
 "customerID": "00000000000001",
 "merchantVatNumber": "979703476",
 "acqIndetifier": "014",
@@ -32,33 +32,59 @@
 ]
 },
 "multiAcq": {
-"acquirers": [
-{
-"acqIndetifier": "014",
-"acqName": "ALPHA BANK"
-},
-{
-"acqIndetifier": "026",
-"acqName": "EURO BANK"
-},
-{
-"acqIndetifier": "011",
-"acqName": "NBG"
-},
-{
-"acqIndetifier": "887",
-"acqName": "CARDLINK ONE"
-},
-{
-"acqIndetifier": "017",
-"acqName": "Piraeus"
-},
-{
-"acqIndetifier": "016",
-"acqName": "Attica"
-}
-]
-},
+        "acquirers": [
+            {
+                "acqIndetifier": "014",
+                "acqName": "NEXI",
+                "allowLocal": true,
+                "allowPremiumLocal": false,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true,
+                "premiumLocalApprovalCode": ""
+            },
+            {
+                "acqIndetifier": "026",
+                "acqName": "WORDLINE",
+                "allowLocal": true,
+                "allowPremiumLocal": false,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true,
+                "premiumLocalApprovalCode": ""
+            },
+            {
+                "acqIndetifier": "011",
+                "acqName": "NBG PAY",
+                "allowLocal": true,
+                "allowPremiumLocal": false,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true,
+                "premiumLocalApprovalCode": ""
+            },
+            {
+                "acqIndetifier": "017",
+                "acqName": "epay",
+                "allowLocal": true,
+                "allowPremiumLocal": false,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true,
+                "premiumLocalApprovalCode": ""
+            },
+            {
+                "acqIndetifier": "016",
+                "acqName": "Attica Bank",
+                "allowLocal": true,
+                "allowPremiumLocal": false,
+                "allowRefund": true,
+                "allowKeyEntry": true,
+                "allowMoto": true,
+                "premiumLocalApprovalCode": ""
+            }
+        ]
+    },
 "allowTransactions": {
 "isAllowSalesPayment": true,
 "isAllowVoidPayment": true,
@@ -84,27 +110,28 @@
 "nbgAppSelectionAcquirerBankId": "011",
 "ishceSelectionEnabled": false,
 "ishceSelectionAcquirerBankId": "011",
-"refundValidationEnabled": true,
+"refundValidationEnabled": false,
 "localSaleEnabled": false,
 "isManualAcquirerSelection": false,
-"preAuthEnabled": false,
+"preAuthEnabled": true,
 "unattendedMode": false,
+"freeRefundEnabled": true,
 "fileLoggerEnabled": false,
 "fileLoggerMBCapacity": 50
 },
 "loyaltySettings": {
-"alphaBankBonusEnabled": false,
+"alphaBankBonusEnabled": true,
 "alphaBankBonusVTid": "",
 "alphaBankBonusVMid": "",
-"useAlphaBankBonusBRAmount": false,
-"useAlphaBankBonusWithoutOffers": false,
+"useAlphaBankBonusBRAmount": true,
+"useAlphaBankBonusWithoutOffers": true,
 "eurobankEuroepistrofiEnabled": false,
 "eurobankEuroepistrofiVTid": "",
 "eurobankEuroepistrofiVMid": "",
 "nbgGo4MoreEnabled": false,
 "nbgGo4MoreVTid": "",
 "nbgGo4MoreVMid": "",
-"pbgYellowEnabled": false,
+"pbgYellowEnabled": true,
 "pbgYellowVTid": "",
 "pbgYellowVMid": "",
 "pbgYellowPointsToRedeem": "2000"
@@ -112,9 +139,9 @@
 "ecrSettings": {
 "ecrSystem": true,
 "ecrSystemDefaultPort": 4000,
-"ecrSystemMode": 1,
-"ecrSystemProtocol": 0,
-"ecrVendor": "1",
+ "ecrSystemMode" : 1,
+    "ecrSystemProtocol" : 0,
+    "ecrVendor" : "1",
 "supportBonusPoolBlock": false
 },
 "billPayment": {
