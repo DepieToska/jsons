@@ -11,6 +11,7 @@
       "merchantID":"0100984178",
       "terminalID":"77400039",
       "customerID":"00000000000001",
+      "merchantVatNumber": "979703476",
       "acqIndetifier":"011",
       "acqName":"Εθνική Τράπεζα"
    },
