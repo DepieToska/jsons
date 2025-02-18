@@ -137,7 +137,7 @@
 "pbgYellowPointsToRedeem": "2000"
 },
 "ecrSettings": {
-"ecrSystem": true,
+"ecrSystem": false,
 "ecrSystemDefaultPort": 4000,
  "ecrSystemMode" : 0,
     "ecrSystemProtocol" : 0,
