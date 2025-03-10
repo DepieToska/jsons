@@ -131,12 +131,11 @@
       "sklavenitisPrepaidEnabled":false
    },
    "ecrSettings":{
-      "ecrSystem":true,
-      "ecrSystemDefaultPort":4000,
-      "ecrSystemMode":0,
-      "ecrSystemProtocol":1,
-      "ecrVendor":"0",
-      "supportBonusPoolBlock":false
+     "ecrSystem": true,
+		"ecrSystemDefaultPort": 4000,
+		"ecrSystemMode": 0,
+		"ecrSystemProtocol": 0,
+		"ecrVendor": "2"
    },
    "billPayment":{
       "useBillPayment":false,
