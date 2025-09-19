@@ -41,7 +41,7 @@
       "isAllowMotoPayment":true
    },
    "applicationSettings":{
-      "sdkLink":1,
+      "sdkLink":2,
       "useMastercardNewBrand":true,
       "supportKeyEntry":true,
       "supportInstallments":false,
